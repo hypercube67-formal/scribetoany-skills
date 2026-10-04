@@ -1,0 +1,36 @@
+1
+00:00:00,400 --> 00:00:02,100
+Upload a file or paste a link.
+
+2
+00:00:02,900 --> 00:00:03,260
+Need more?
+
+3
+00:00:03,300 --> 00:00:05,900
+ScribeToAny transcribes it in about 98 languages.
+
+4
+00:00:06,700 --> 00:00:07,140
+Turn on
+
+5
+00:00:07,160 --> 00:00:09,400
+detect speakers, and every line gets a speaker label.
+
+6
+00:00:10,300 --> 00:00:10,900
+Fix it right there.
+
+7
+00:00:12,000 --> 00:00:14,200
+Then take it out in the format you need, SRT, VTT or Word.
+
+8
+00:00:14,260 --> 00:00:15,000
+- Is it free?
+- Yes.
+
+9
+00:00:15,020 --> 00:00:15,500
+Every month.

@@ -1,0 +1,12 @@
+{
+  "name": "subtitle-qc",
+  "version": "1.0.0",
+  "description": "Check and fix subtitle reading speed (CPS), line length, duration and gaps in SRT/VTT files. Timing first, words last.",
+  "author": {
+    "name": "ScribeToAny",
+    "url": "https://scribetoany.com"
+  },
+  "homepage": "https://scribetoany.com/blog/subtitle-reading-speed-cps",
+  "license": "MIT",
+  "keywords": ["subtitles", "srt", "vtt", "captions", "cps", "reading-speed", "netflix"]
+}

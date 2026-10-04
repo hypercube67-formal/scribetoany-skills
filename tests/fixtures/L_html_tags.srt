@@ -1,0 +1,11 @@
+1
+00:00:00,000 --> 00:00:01,680
+<i>Welcome back</i> to <b>Small Shop Stories</b>.
+
+2
+00:00:02,160 --> 00:00:05,320
+Today I'm talking to Maya, who runs a tiny bakery on the
+
+3
+00:00:05,320 --> 00:00:06,320
+<font color="#ffcc00">corner of Mill Street.</font>

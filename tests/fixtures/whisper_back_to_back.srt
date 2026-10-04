@@ -1,0 +1,144 @@
+1
+00:00:00,000 --> 00:00:03,600
+All right, Mark, this is cool, but I want my users to be able to use my app.
+
+2
+00:00:03,600 --> 00:00:05,300
+So, right, all right, I get you.
+
+3
+00:00:05,300 --> 00:00:06,500
+We're going to get there in a minute.
+
+4
+00:00:06,500 --> 00:00:08,500
+The only part that's missing are models.
+
+5
+00:00:08,500 --> 00:00:16,000
+Mongoose models are built on top of schemas and are going to be the bridge between our code and the database.
+
+6
+00:00:16,000 --> 00:00:22,000
+We're going to use those models to create, delete, update any collections we want, two lines of code.
+
+7
+00:00:22,000 --> 00:00:24,000
+The first one is this one.
+
+8
+00:00:24,000 --> 00:00:29,000
+We will create a new variable that will be called board with a capital B as a convention.
+
+9
+00:00:29,000 --> 00:00:31,800
+And we're going to call this Mongoose.model function.
+
+10
+00:00:31,800 --> 00:00:33,500
+This function takes two parameters.
+
+11
+00:00:33,500 --> 00:00:36,000
+The first one is the name of the model.
+
+12
+00:00:36,000 --> 00:00:37,800
+And the second one is this schema.
+
+13
+00:00:37,800 --> 00:00:39,600
+So we know how to structure data.
+
+14
+00:00:39,600 --> 00:00:40,400
+And that's it.
+
+15
+00:00:40,400 --> 00:00:41,600
+Now you can do board.
+
+16
+00:00:41,600 --> 00:00:43,800
+Find board.updateboard.delete.
+
+17
+00:00:43,800 --> 00:00:46,800
+You can prefer any kind of operation you want on the database.
+
+18
+00:00:46,800 --> 00:00:48,900
+Think to this board model.
+
+19
+00:00:48,900 --> 00:00:50,500
+We're going to keep this a file clean.
+
+20
+00:00:50,500 --> 00:00:54,900
+And for now, we're just going to export the board so that we can use it in other files.
+
+21
+00:00:54,900 --> 00:00:57,900
+And since we have board and board here, we can just
+
+22
+00:00:58,000 --> 00:01:03,000
+replace that line and do and do this one last thing.
+
+23
+00:01:03,000 --> 00:01:07,800
+Since we are on our computer, there is this little script running and piano and dev
+
+24
+00:01:07,800 --> 00:01:12,400
+that every time you save a file is going to refresh the entire project.
+
+25
+00:01:12,400 --> 00:01:16,500
+That's why we usually see the changes right away after we code them.
+
+26
+00:01:16,500 --> 00:01:21,600
+The only problem is that this function is going to create a new model every time we save.
+
+27
+00:01:21,600 --> 00:01:24,700
+So we want to say like something like if the model already exists,
+
+28
+00:01:24,700 --> 00:01:27,400
+then just return like export the model.
+
+29
+00:01:27,400 --> 00:01:30,200
+If it doesn't exist, then create the new model.
+
+30
+00:01:30,200 --> 00:01:33,100
+This part of the code is already creating the new model.
+
+31
+00:01:33,100 --> 00:01:35,400
+So we just need to add this code before.
+
+32
+00:01:35,400 --> 00:01:39,600
+It's basically going to say check if the board models already exists.
+
+33
+00:01:39,600 --> 00:01:44,000
+And if it does not exist, then create a new board model.
+
+34
+00:01:44,000 --> 00:01:44,600
+And that's it.
+
+35
+00:01:44,600 --> 00:01:45,200
+Congratulations.
+
+36
+00:01:45,200 --> 00:01:47,200
+You created your first Mongoose model.
+

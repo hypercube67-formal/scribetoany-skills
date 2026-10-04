@@ -1,0 +1,15 @@
+{
+  "name": "scribetoany-skills",
+  "description": "Subtitle and transcript skills from ScribeToAny",
+  "owner": {
+    "name": "ScribeToAny",
+    "url": "https://scribetoany.com"
+  },
+  "plugins": [
+    {
+      "name": "subtitle-qc",
+      "source": "./plugins/subtitle-qc",
+      "description": "Check and fix subtitle reading speed (CPS) in SRT/VTT files against Netflix-style limits"
+    }
+  ]
+}
