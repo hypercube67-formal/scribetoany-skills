@@ -60,6 +60,12 @@ to 24% before a single word was cut. The method and sources are in
 /plugin install subtitle-qc@scribetoany-skills
 ```
 
+**Any agent, with the [skills CLI](https://github.com/vercel-labs/skills)**
+
+```bash
+npx skills add hypercube67-formal/scribetoany-skills
+```
+
 **Claude Code, Codex, Cursor, Gemini CLI, OpenCode (copy the folder)**
 
 ```bash
