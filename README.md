@@ -11,6 +11,8 @@ any other agent that reads `SKILL.md` folders.
 
 ## subtitle-qc
 
+![subtitle-qc: before and after retiming. Cues over 17 CPS drop from 8 to 3, median CPS from 25 to 17, with no words changed.](assets/social-preview.png)
+
 A subtitle can be accurate and still fail: if it leaves the screen before the
 viewer finishes reading, it was missed. Auto-captions and raw Whisper output
 fail this constantly, because each cue is timed to the words, not to the
