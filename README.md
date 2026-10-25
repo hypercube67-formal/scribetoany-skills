@@ -63,6 +63,19 @@ to 24% before a single word was cut. The method and sources are in
 /plugin install subtitle-qc@scribetoany-skills
 ```
 
+**Cursor (plugin)**
+
+```bash
+git clone https://github.com/scribetoany/skills.git
+mkdir -p ~/.cursor/plugins/local
+cp -r skills/plugins/scribetoany ~/.cursor/plugins/local/scribetoany
+cp -r skills/plugins/subtitle-qc ~/.cursor/plugins/local/subtitle-qc
+```
+
+Then run **Developer: Reload Window**. The `scribetoany` plugin adds the
+ScribeToAny MCP server (Cursor asks you to sign in once) and the
+transcription skill; `subtitle-qc` adds the subtitle check.
+
 **Any agent, with the [skills CLI](https://github.com/vercel-labs/skills)**
 
 ```bash
