@@ -1,0 +1,15 @@
+{
+  "name": "scribetoany",
+  "displayName": "ScribeToAny",
+  "version": "0.1.0",
+  "description": "Transcribe audio and video into text, SRT or VTT subtitles with timestamps and speaker labels, in about 99 languages. Adds the ScribeToAny MCP server (sign in once with OAuth) and a skill for transcribing local files with the ScribeToAny CLI.",
+  "author": {
+    "name": "ScribeToAny",
+    "url": "https://scribetoany.com"
+  },
+  "homepage": "https://scribetoany.com/developers",
+  "repository": "https://github.com/scribetoany/skills",
+  "license": "MIT",
+  "keywords": ["transcription", "speech-to-text", "subtitles", "srt", "vtt", "whisper", "speaker-labels", "mcp"],
+  "logo": "assets/logo.svg"
+}

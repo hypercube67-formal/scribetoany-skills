@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "scribetoany": {
+      "url": "https://scribetoany.com/api/mcp"
+    }
+  }
+}
