@@ -8,6 +8,7 @@ any other agent that reads `SKILL.md` folders.
 | Skill | What it does |
 |---|---|
 | [subtitle-qc](plugins/subtitle-qc/skills/subtitle-qc/SKILL.md) | Checks and fixes subtitle reading speed (CPS), line length, duration and gaps in SRT/VTT files. Timing first, words last. |
+| [scribetoany](plugins/scribetoany/skills/scribetoany/SKILL.md) | Transcribes local audio and video files (or public links) into text, SRT or VTT subtitles with the ScribeToAny CLI. |
 
 ## subtitle-qc
 
