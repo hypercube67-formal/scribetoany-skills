@@ -62,8 +62,10 @@ scribetoany get <id> --wait --format srt --json       # run in the background
 ```
 
 With `--json`, `transcribe` and `get` print
-`{ id, name, status, language, durationSec, url, output }`, where `output`
-is the saved file's path.
+`{ id, name, status, language, durationSec, planLimit, url, output }`,
+where `output` is the saved file's path. `planLimit` is set when the
+recording was longer than the plan allows per file and only its start was
+transcribed: always tell the user, using its `message`.
 
 ## 4. Use the result
 
