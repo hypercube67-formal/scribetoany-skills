@@ -59,24 +59,24 @@ to 24% before a single word was cut. The method and sources are in
 **Claude Code (plugin marketplace)**
 
 ```
-/plugin marketplace add hypercube67-formal/scribetoany-skills
+/plugin marketplace add scribetoany/skills
 /plugin install subtitle-qc@scribetoany-skills
 ```
 
 **Any agent, with the [skills CLI](https://github.com/vercel-labs/skills)**
 
 ```bash
-npx skills add hypercube67-formal/scribetoany-skills
+npx skills add scribetoany/skills
 ```
 
 **Claude Code, Codex, Cursor, Gemini CLI, OpenCode (copy the folder)**
 
 ```bash
-git clone https://github.com/hypercube67-formal/scribetoany-skills.git
+git clone https://github.com/scribetoany/skills.git
 # Claude Code
-cp -r scribetoany-skills/plugins/subtitle-qc/skills/subtitle-qc ~/.claude/skills/
+cp -r skills/plugins/subtitle-qc/skills/subtitle-qc ~/.claude/skills/
 # Agents that read ~/.agents/skills
-cp -r scribetoany-skills/plugins/subtitle-qc/skills/subtitle-qc ~/.agents/skills/
+cp -r skills/plugins/subtitle-qc/skills/subtitle-qc ~/.agents/skills/
 ```
 
 **Claude.ai**: zip the `subtitle-qc` folder and upload it under
